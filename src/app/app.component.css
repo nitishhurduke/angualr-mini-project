@@ -1,0 +1,10 @@
+.container{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+  width: 241px; 
+  height: 250px;
+  background: url(src/assets/images/back2.jpg);
+  background-blend-mode: multiply;
+}

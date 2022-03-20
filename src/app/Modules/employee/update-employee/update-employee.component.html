@@ -1,0 +1,49 @@
+<h5 style="text-align: center;">Update Employee</h5>
+<form [formGroup]="updateForm" (ngSubmit)="update()">
+
+    <table class="text-center table table-light">
+        <tr>
+            <th>Name</th>
+            <td>
+                <input type="text" formControlName="ename">
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <input type="text" formControlName="email">
+            </td>
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td>
+                <input type="text" formControlName="mobile">
+            </td>
+        </tr>
+
+        <tr>
+            <th>Designation</th>
+            <td>
+                <input type="text" formControlName="designation">
+            </td>
+        </tr>
+        <tr>
+            <th>Username</th>
+            <td>
+                <input type="text" formControlName="username">
+            </td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td>
+                <input type="text" formControlName="password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input class="btn btn-dark" type="submit" [disabled]="updateForm.invalid" value="Update">
+                <button class="btn btn-outline-dark mx-2" (click)="back()">Back </button>
+            </td>
+        </tr>
+    </table>
+</form>

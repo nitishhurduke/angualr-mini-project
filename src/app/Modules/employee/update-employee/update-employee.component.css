@@ -1,0 +1,7 @@
+.table{
+    width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: top 20px;
+}

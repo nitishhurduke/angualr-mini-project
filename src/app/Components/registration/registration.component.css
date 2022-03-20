@@ -1,0 +1,28 @@
+.login{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+}
+.btn-reg{
+    margin-top: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+.card{
+    margin-top: 50px;
+    border: none;
+    width:500px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    /* left:50%; */
+    /* transform:translate(-50%,-50%); */
+    background:transparent ;
+    background: linear-gradient(90deg,rgba(56, 6, 150, 0.568),rgba(255, 255, 255, 0.349) );
+
+}
+h3{
+    color: honeydew;
+}

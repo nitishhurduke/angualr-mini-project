@@ -1,0 +1,23 @@
+
+* Routing enabled
+* Added Json Server(to Activate and Communicate with db.json) Using - 'sudo npm i json-server -g' 
+* Added Bootstrap Using - 'sudo npm i bootstrap@4.4.1'
+* Added Font Awesome using - 'sudo npm i font-awesome'
+* Added db.json in assets folder
+
+* Updated angular.json
+
+	- added bootstrap.css url in 'style'
+	- added font-awesome.css url in 'style' 
+	
+* Project Compiled	
+* 'json-server --watch db.json' run successfully... 
+
+* Changes to be made in followed projects
+	- angular.json
+	- package.json
+	- package-lock.json
+	- index.html	
+	- app.component.ts
+	- README.md
+	

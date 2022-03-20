@@ -1,0 +1,52 @@
+{
+  "Employees": [
+    {
+      "id": 1,
+      "ename": "Nitish Shrihari Hurduke",
+      "email": "nitsproff@gmail.com",
+      "mobile": "8669015989",
+      "designation": "ASASD",
+      "username": "nitsproff",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "ename": "Swapnil Shrihari Hurduke",
+      "email": "swap@gmail.com",
+      "mobile": "8745434544",
+      "designation": "Sr. Java Developer",
+      "username": "swap",
+      "password": "12345"
+    },
+    {
+      "ename": "Sandeep Shrihari Hurduke",
+      "email": "sandy@gmail.com",
+      "mobile": "9763343111",
+      "designation": "Manager",
+      "username": "sandy",
+      "password": "sandy123",
+      "confPassword": "sandy123",
+      "id": 3
+    }
+  ],
+  "Admins": [
+    {
+      "name": "Swapnil",
+      "username": "swap",
+      "password": "s123",
+      "id": 1
+    },
+    {
+      "name": "Nitish",
+      "username": "nits",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "Sandeep",
+      "username": "sandy",
+      "password": "1234",
+      "id": 3
+    }
+  ]
+}

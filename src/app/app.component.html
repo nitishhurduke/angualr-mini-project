@@ -1,0 +1,68 @@
+<div class="container">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transperent">
+    <a class="navbar-brand" routerLink="login">Employee Management</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="register">Registration</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="login">Login <span class="sr-only">(current)</span></a>
+        </li>
+
+
+        <!-- Employee and Company as Normal Nav Items -->
+
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="employee">Employee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="company">Company</a>
+        </li> -->
+
+        <!-- Dropdown nav buttons for Employee and Company  -->
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Employee
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink="employee">Add New Employee</a>-->
+        <!--Routing using routerLink -->
+        <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="employee/list">View All Employees</a> -->
+        <!--Child Routing Using routlink -->
+        <!-- </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Company
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+            <a class="dropdown-item" (click)="navigateToCompany()">Add New Company</a>-->
+        <!--Routing Using Click Event -->
+        <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" (click)="navigateToCompanyList()">View All Companies</a>-->
+        <!--Child Routing Using Click Event -->
+        <!-- </div>
+        </li>  -->
+      </ul>
+    </div>
+  </nav>
+</div>
+  <router-outlet></router-outlet>
