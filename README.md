@@ -1,5 +1,7 @@
+Employee Management System
+
 <<<<<<< HEAD
-# angualr-mini-project
+# Employee Management System
 =======
 # Angular_Mini_Project
 
